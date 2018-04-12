@@ -3,7 +3,11 @@
 
 Visit at https://coddec.github.io/Deakin-University-Survival-Kit/
 
-Shortened URL: https://git.io/vxx1Y
+Shortened URL: https://git.io/vxx1Y  
+
+
+<br>
+<br>
 
 ---
 Made possible with: [Bootstrap](https://getbootstrap.com/) & [List.js](http://listjs.com)
