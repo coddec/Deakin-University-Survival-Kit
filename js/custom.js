@@ -8,7 +8,7 @@
 			}
 
 			//Back top bottom
-			if ($(window).scrollTop() + $(window).height() !== $(document).height()) {
+			if ($(window).scrollTop() + $(window).height() <= $(document).height() - 5) {
 				$('#back-to-bottom').fadeIn();
 			} else {
 				$('#back-to-bottom').fadeOut();
@@ -24,7 +24,7 @@
 			return false;
 		});
 
-		$('#back-to-bottom').tooltip();
+		//$('#back-to-bottom').tooltip();
 
 		// scroll body to 0px on click
 		$('#back-to-top').click(function () {
@@ -35,6 +35,6 @@
 			return false;
 		});
 
-		$('#back-to-top').tooltip();
+		//$('#back-to-top').tooltip();
 
 	});
