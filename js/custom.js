@@ -7,8 +7,8 @@
 				$('#back-to-top').fadeOut();
 			}
 
-			//Back top bottom
-			if ($(window).scrollTop() + $(window).height() <= $(document).height() - 5) {
+			//Back to bottom
+			if ($(window).scrollTop() + $(window).height() <= $(document).height() - 10) {
 				$('#back-to-bottom').fadeIn();
 			} else {
 				$('#back-to-bottom').fadeOut();
