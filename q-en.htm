@@ -42,8 +42,9 @@
     <div class="col-12">
       <div class="input-group input-group-lg">
         <div class="input-group-prepend"> <span class="input-group-text" id="inputGroup-sizing-lg">Search</span> </div>
-        <input type="text" class="form-control search" aria-label="Search" aria-describedby="inputGroup-sizing-lg">
+        <input type="text" class="form-control search" id="SearchBox" aria-label="Search" aria-describedby="inputGroup-sizing-lg" onkeyup="updateDisplayLink()">
       </div>
+	  <a id="queryURL" href=""></a>
       <br>
     </div>
     <div class="table-responsive">
@@ -518,5 +519,6 @@
   gtag('config', 'UA-108814259-2');
 </script> 
 <a id="back-to-top" href="#" class="btn btn-warning btn-md back-to-top" role="button" title="Back to top"><span class="fas fa-chevron-up"></span></a> <a id="back-to-bottom" href="#" class="btn btn-warning btn-md back-to-bottom" role="button" title="Back to bottom"><span class="fas fa-chevron-down"></span></a>
+<script src="js/urlsearch.js"></script>
 </body>
 </html>
